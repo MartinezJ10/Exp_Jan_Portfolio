@@ -76,8 +76,8 @@ main{
     "job1 job2 job3";
     grid-template-columns: repeat(3, 1fr);
         .bio-image {
-            width: 400px;
-            height: 400px;
+            width: 300px;
+            height: 300px;
             grid-area: bioimage;
             margin: auto;
             border-radius: 50% ;
