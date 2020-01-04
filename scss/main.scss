@@ -66,6 +66,7 @@ main{
         }
     }
 }
+//About Page
 
 .about-info{
     display: grid;
@@ -75,10 +76,14 @@ main{
     "job1 job2 job3";
     grid-template-columns: repeat(3, 1fr);
         .bio-image {
+            width: 400px;
+            height: 400px;
             grid-area: bioimage;
             margin: auto;
             border-radius: 50% ;
             border: $secondary-color 3px solid;
+            background: set-color-text($primary-color);
+
         }
         .bio{
             grid-area: bio;
@@ -176,4 +181,4 @@ img{
 }
 
 @import "mobile"; 
-  
+   
